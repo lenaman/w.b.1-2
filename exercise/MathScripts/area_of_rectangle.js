@@ -1,3 +1,5 @@
-var angle1 = 95
-var angle2 = 45
-console.log(angle1*angle2)
+var length = 95;
+var width  = 45;
+var rectangle = "The area of a rectangle is " + (length * width)
+
+console.log(rectangle)
