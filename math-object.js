@@ -1,5 +1,9 @@
-"use strict"
+"use strict";
 
-var number = 7.5;
-var numberRound = Math.round(number);
-console.log(numberRound);
+var number1 = 7.5;
+var numberRounded = Math.round(number1);
+console.log(numberRounded);
+
+
+var number2 = 7.5;
+console.log(Math.round(number2));
