@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="messageDiv">Welcome</div>
+    <input id='Name' type="text" value="" placeholder="How are you?">
+    <button id='messageButton' onclick="newmessage()">Click Me</button>
+    <main>
+        <script>
+        function newmessage(){
+            let messageDiv = document.getElementById("messageDiv");
+            console.log(messageDiv);
+            messageDiv.innerText = "Hello"
+        }
+   
+    //  document.getElementById("messageButton").addEventListener('click', newmessage)
+        </script>
+    </main>
+</body>
+</html>

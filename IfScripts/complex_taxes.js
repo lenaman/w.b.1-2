@@ -40,8 +40,8 @@ if (annualGrossPay < 12000){
 let weeklyTaxWithholding = weeklyGrossPay * taxRate;
 let weeklyNetPay = weeklyGrossPay - weeklyTaxWithholding;
 
-console.log("You worked" ${hoursWorked} "hours this period.");
-console.log ("Because you earn" ${payRate.toFixed(2)} "per hour , your gross pay is " {grossPay.tofixed(2)})
+console.log("You worked ${hoursWorked} hours this period.");
+console.log ("Because you earn" ${payRate.toFixed(2)} "per hour , your gross pay is " ${grossPay.tofixed(2)})
 console.log("Your filing status is" {filingStatus})
 console.log("Your tax withholdings this period is" ${weeklyTaxWithholding.tofixed(2)})
 console.log("Your net pay is "${weeklyNetPay.tofixed(2)})
