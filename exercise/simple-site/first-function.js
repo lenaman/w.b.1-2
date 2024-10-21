@@ -6,6 +6,10 @@ function test() {
   console.log("bye");
   console.log("welcome");
 }
+// below: this is to declare the functipm, define how it works
+test():
+
+
 let test = document.getElementById("Hello");
 
 function test2() {

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Afternoon</title>
+</head>
+<body>
+    <div id="messageDiv">Hello!</div>
+    <input id= "inputDiv" type="text" value="" placeholder="Enter Here">
+    <button  onclick=newMessage()>"Click"</button>
+    <main>
+        <script>
+            function newMessage(){
+            let messageDiv = document.getElementById("messageDiv")
+            console.log(messageDiv)
+            messageDiv.innerText="How are you?"
+
+            let nameInput = document.getElementById("inputDiv")
+            nameInput.value = "Good"
+            }
+        </script>
+
+    </main>
+    
+</body>
+</html>
